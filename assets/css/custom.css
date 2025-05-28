@@ -1,0 +1,235 @@
+
+/* Change background color */
+/* Change font */
+body {
+  /*background-color: #E7E8D1;*/
+  /*background-color: #FFFFF0;*/
+  background-color: #FFFAED;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+/* Customize headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+/* Custom fonts*/
+.bold-helvetica {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Custom link colors*/
+a {
+  color: #B85042;
+}
+a:hover {
+  color: #944138;
+}
+a:visited {
+  color: #662b24; 
+}
+
+
+/* === NavBar-specific styles === */
+/* Add spacing above nav bar */
+header.site-header {
+  padding-top: 1rem;
+}
+
+
+
+/* === Homepage-specific styles === */
+.home-landing .about-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.home-landing .about-image img {
+  width: 160px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  padding-left: 10px;
+}
+
+.home-landing .about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.home-landing .works-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-landing .works-section li {
+  margin-bottom: 1rem;
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 768px) {
+  .home-landing .about-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-landing .about-text {
+    text-align: center;
+  }
+}
+
+
+/* === Works Grid-specific styles === */
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.work-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.work-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Overlay content */
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+  text-align: center;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.card-overlay h2,
+.card-overlay h3 {
+  margin: 0.3rem 0;
+  line-height: 0.8;
+  text-align: left;
+  font-weight: normal;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #adadad;
+}
+
+/* Show overlay on hover */
+.work-card:hover .card-overlay {
+  opacity: 1;
+}
+
+/* Optional: subtle image zoom on hover */
+.work-card:hover img {
+  transform: scale(1.05);
+}
+
+
+/* === About section specific styles === */
+
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.about-label {
+  font-weight: bold;
+  width: 30%;
+  min-width: 120px;
+  flex-shrink: 0;
+  text-align: right;
+  padding-right: 1.5rem;
+}
+
+.about-detail {
+  flex: 1;
+  line-height: 1.5;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #B85042;
+  margin-left: 0.3rem;
+}
+
+h1, h3 {
+  margin-top: 2rem;
+}
+
+
+/* === Collections section specific styles === */
+
+.collections-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.collections-sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 2rem;
+}
+
+.collections-main {
+  flex: 1;
+}
+
+.collections-main h2 {
+  margin-top: 3rem;
+  scroll-margin-top: 2rem;
+}
+
+.collections-toc {
+  position: sticky;
+  top: 2rem;
+  float: right;
+  margin-left: 2rem;
+}
