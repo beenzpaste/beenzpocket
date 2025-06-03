@@ -17,7 +17,9 @@ title: Home
     <h2 style="font-style: italic; line-height: 1.2;">Love,</h2>
     <h1 style="font-style: italic; line-height: 0.2;">Sheena</h1>
     <br>
-    <p stule="line-height: 2;">Welcome to Beenz’ Pocket, an amalgamation of works done, experimentation, and interesting tidbits that evolves with me.</p>
+    <p stule="line-height: 2;">Welcome to Beenz’ Pocket, an amalgamation of works done, experimentation, and interesting tidbits that evolves with me. <br>
+    <br>
+    Note: This website is still a work in progress. </p>
   </div>
 </div>
 
