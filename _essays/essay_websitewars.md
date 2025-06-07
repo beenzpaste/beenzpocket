@@ -7,6 +7,7 @@ layout: default
 
 <h1>East vs. West: Culture in Digital Wayfinding</h1>
 
+![shopee](https://file%2B.vscode-resource.vscode-cdn.net/Users/sheebang/beenzpocket/assets/images/essays/shopeeWebsite.png?version%3D1749284904426) ![ebay](../assets/images/essays/ebayWebsite.png)
 (Source: Shopee Taiwan 2024)        (Source: eBay 2024)
 
 Blasted by bright, flashing ads and visually attacked with margins riddled with cramped, tiny text, I physically shuddered from how overwhelming Shopee’s front page was. My first time navigating the site was quite the trip, as my search results were entries branded with icons of discounts, special deals, seals of approval, assurances of quality, and tightly photoshopped product images. Most frustratingly, I remember going on what felt like a wild goose chase for free shipping as I clicked link after link, going in a circle. It was not pleasing, neither in aesthetics or experience.
@@ -15,6 +16,7 @@ I have to admit that part of the trouble I had was an unfamiliarity with Mandari
 
 It reminds me of my image of Chinatown–a harmonic cacophony of street vendors, red spring couplets, and grandmas shouting to each other across the street. Asian culture has come to embrace and celebrate the messy and discordant. Meanwhile, historical development has led Western thinking to associate civilization with sophistication and restraint, characterizing a lack of color as cleanliness and purity. While this is certainly not true as a hard and fast rule, traces of these aesthetic preferences can be found in these populations’ respective designs.
 
+![handshake](../assets/images/essays/handshakeWebsite.png) ![104](../assets/images/essays/104website.png)
  (Source: Handshake 2024)      (Source: 104人力銀行 2024)
 
 Another instance I experienced website navigation disorientation was during my summer internship research. Hoping to expand beyond the limited postings on Handshake, I turned to the Taiwanese site 104 for job search. Instantly, despite and especially because of the comparable layout, I registered differences–where the former maintained a tricolor profile of dulled colors, 104 had an accent color of bright orange and text of vivid, primary colors. Instead of larger icons and larger spacing, the Taiwanese site has smaller margins and text. Effectively, the site had nearly identical functions, yet the website design made different impressions.
@@ -31,6 +33,7 @@ The best evidence of this can be found in a fascinating case study on website lo
 
 Chen discusses how typography, information hierarchy, and navigation routes interplay to create different experiences for the two target populations. 
 
+![yahoojp](../assets/images/essays/yahooJapWeb.png) ![yahoous](../assets/images/essays/yahooUSweb.png)
  (Source: Yahoo Japan 2019)      (Source: Yahoo USA 2019)
 
 The Japanese value obtaining contextual information. The skepticism and care with which they regard quality and credibility mean business websites must be designed to gain their audience’s trust (Saephan 2019). This is reflected in an abundance of typography and material, which allow a user to access all the content easily. Furthermore, navigation flow is more likely to be split into multiple sections, allowing users to narrow down their search through a series of pages. 
