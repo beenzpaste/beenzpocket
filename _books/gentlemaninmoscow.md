@@ -6,11 +6,13 @@ layout: book
 summary: "5⭐️"
 ---
  
+---
+
 If I wasn’t convinced enough already, this book (and this Amor Towles) receiving a blurb from Ann Patchett herself solidifies these two as my reigning god tier authors, from whom I will read anything.
 
 Six stars, new obsession
 
----
+-
 
 Review (06/24/24):
 

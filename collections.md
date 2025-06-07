@@ -36,8 +36,8 @@ permalink: /collections/
       {% else %}
         <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
       {% endif %}
-      {% if entry.date %}
-        <small>({{ entry.date | date: "%B %d, %Y" }})</small>
+      {% if entry.author %}
+        <small>by {{ entry.author }}</small>
       {% endif %}
     </li>
   {% endfor %}
