@@ -31,6 +31,7 @@ github_username:  beenzpaste
 theme: minima
 plugins:
   - jekyll-feed
+  - ./_includes/csv-loader.rb
   
 # Custom CSS
 minima:
@@ -40,10 +41,9 @@ minima:
   
 # Navigation Links
 header_pages:
-    - about.md
     - works.md
     - collections.md
-    - contact.md
+    - about.md
 
 collections:
   works:
@@ -53,7 +53,7 @@ collections:
   books:
     output: true
   articles:
-    output: true
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

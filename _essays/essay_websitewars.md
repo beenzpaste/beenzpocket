@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Museums"
+title: "Website Wars"
 tags: [wayfinding, design]
 date: 2024-02-08
 layout: default

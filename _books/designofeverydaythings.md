@@ -1,9 +1,9 @@
 ---
-title: "The Design of Everyday Things"
-author: "Don Norman"
-date: 2024-05-15
+title: "Tomorrow and Tomorrow and Tomorrow"
+author: "Gabrielle Zevin"
+date: 2023-04-16
 layout: default
-summary: "A classic book about design psychology and user-centered design."
+summary: "5⭐️"
 ---
 
-Placeholder content for *The Design of Everyday Things*.
+*Review*: I never wanted this book to end and I instantly felt book withdrawal
