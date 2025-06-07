@@ -1,23 +1,11 @@
 backend:
-  name: github
-  repo: your-username/your-repo-name
+  name: git-gateway
   branch: main
-  site_domain: yourusername.github.io
 
-media_folder: "assets/uploads" # Where uploaded images go
+media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: "essays"
-    label: "Essays"
-    folder: "_essays"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "books"
     label: "Books"
     folder: "_books"
@@ -26,16 +14,18 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "works"
-    label: "Works"
-    folder: "_works"
+  - name: "articles"
+    label: "Articles"
+    folder: "_articles"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Source", name: "source", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+
+# You can add more collections (essays, etc.) as needed
