@@ -28,12 +28,16 @@ permalink: /collections/
 
 <h2 id="books">Books</h2>
 <ul>
-  {% for entry in site.books %}
+  {% assign sorted_books = site.books | sort: "date" | reverse %}
+  {% for entry in sorted_books %}
     <li>
       {% if entry.type == "external" and entry.link %}
         <a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a>
       {% else %}
         <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+      {% endif %}
+      {% if entry.date %}
+        <small>({{ entry.date | date: "%B %d, %Y" }})</small>
       {% endif %}
     </li>
   {% endfor %}

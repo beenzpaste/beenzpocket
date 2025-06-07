@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h1>{{ page.title }}</h1>
-    <p><em>{{ page.author }}</em></p>
-    <p><strong>{{ page.date }}</strong></p>
-    <div>{{ content }}</div>
-  </body>
-</html>
+<!-- _layouts/book.html -->
+---
+layout: default
+---
+
+<div class="book">
+  <h1>{{ page.title }}</h1>
+  <p><strong>Author:</strong> {{ page.author }}</p>
+  <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+  <div>
+    {{ content }}
+  </div>
+</div>
