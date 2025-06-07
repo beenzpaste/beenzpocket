@@ -2,7 +2,7 @@
 title: "A Gentleman in Moscow"
 author: "Amor Towles"
 date: 2024-06-20
-layout: default
+layout: book
 summary: "5⭐️"
 ---
  

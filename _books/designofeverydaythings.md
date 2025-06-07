@@ -2,7 +2,7 @@
 title: "Tomorrow and Tomorrow and Tomorrow"
 author: "Gabrielle Zevin"
 date: 2023-04-16
-layout: default
+layout: book
 summary: "5⭐️"
 ---
 

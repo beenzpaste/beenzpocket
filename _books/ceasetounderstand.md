@@ -2,7 +2,7 @@
 title: "When We Cease to Understand the World"
 author: "Benjamín Labatut, Adrian Nathan West (Translator)"
 date: 2024-08-18
-layout: default
+layout: book
 summary: "5⭐️"
 ---
  

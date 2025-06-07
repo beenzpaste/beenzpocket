@@ -2,7 +2,7 @@
 title: "Born a Crime: Stories From a South African Childhood"
 author: "Trevor Noah"
 date: 2022-03-03
-layout: default
+layout: book
 summary: "5⭐️"
 ---
 

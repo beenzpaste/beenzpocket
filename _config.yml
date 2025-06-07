@@ -31,13 +31,11 @@ github_username:  beenzpaste
 theme: minima
 plugins:
   - jekyll-feed
-  - ./_includes/csv-loader.rb
+ # - ./_includes/csv-loader.rb
   
 # Custom CSS
 minima:
   skin: classic
-  #custom_css:
-  #  - /assets/css/custom.css
   
 # Navigation Links
 header_pages:
