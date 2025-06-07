@@ -3,6 +3,7 @@ title: "Tomorrow and Tomorrow and Tomorrow"
 author: "Gabrielle Zevin"
 date: 2023-04-16
 layout: book
+tags: [favourites, litfic, science]
 summary: "5⭐️"
 ---
 

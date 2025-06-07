@@ -6,7 +6,18 @@ layout: default
   <h1>{{ page.title }}</h1>
   <p><strong>Author:</strong> {{ page.author }}</p>
   <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
-  <div>
+
+  {% if page.tags %}
+    <p><strong>Tags:</strong>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  <strong>Review:</strong>
+  <br><br>
+  <div style="padding-left: 2rem; padding-right: 2rem;">
     {{ content }}
   </div>
 </div>

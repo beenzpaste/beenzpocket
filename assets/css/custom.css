@@ -233,3 +233,11 @@ h1, h3 {
   float: right;
   margin-left: 2rem;
 }
+
+.tag {
+  background-color: #A7BEAE;
+  padding: 0.2em 0.5em;
+  margin-right: 0.4em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}

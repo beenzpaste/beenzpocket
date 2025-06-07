@@ -45,9 +45,17 @@ permalink: /collections/
 
 <h2 id="articles">Articles</h2>
 <ul>
-  {% for entry in site.articles %}
+  {% assign sorted_articles = site.articles | sort: "date" | reverse %}
+  {% for entry in sorted_articles %}
     <li>
-      <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+      {% if entry.link %}
+        <a href="{{ entry.link }}" target="_blank" rel="noopener">{{ entry.title }}</a>
+        {% if entry.source %}
+          <small>({{ entry.source }})</small>
+        {% endif %}
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

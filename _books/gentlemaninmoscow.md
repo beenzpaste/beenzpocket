@@ -3,10 +3,10 @@ title: "A Gentleman in Moscow"
 author: "Amor Towles"
 date: 2024-06-20
 layout: book
+tags: [favourites, litfic]
 summary: "5⭐️"
 ---
- 
----
+
 
 If I wasn’t convinced enough already, this book (and this Amor Towles) receiving a blurb from Ann Patchett herself solidifies these two as my reigning god tier authors, from whom I will read anything.
 
