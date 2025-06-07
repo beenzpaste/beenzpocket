@@ -7,8 +7,17 @@ layout: default
 
 <h1>East vs. West: Culture in Digital Wayfinding</h1>
 
-![shopee](https://file%2B.vscode-resource.vscode-cdn.net/Users/sheebang/beenzpocket/assets/images/essays/shopeeWebsite.png?version%3D1749284904426) ![ebay](../assets/images/essays/ebayWebsite.png)
-(Source: Shopee Taiwan 2024)        (Source: eBay 2024)
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin-bottom: 0.5em;">
+  <figure style="text-align: center;">
+    <img src="/assets/images/essays/shopeeWebsite.png" alt="Shopee" style="width: 300px;" />
+    <figcaption style="font-size: 0.9em;">Shopee Taiwan 2024</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="/assets/images/essays/ebayWebsite.png" alt="eBay" style="width: 300px;" />
+    <figcaption style="font-size: 0.9em;">eBay 2024</figcaption>
+  </figure>
+</div>
 
 Blasted by bright, flashing ads and visually attacked with margins riddled with cramped, tiny text, I physically shuddered from how overwhelming Shopee’s front page was. My first time navigating the site was quite the trip, as my search results were entries branded with icons of discounts, special deals, seals of approval, assurances of quality, and tightly photoshopped product images. Most frustratingly, I remember going on what felt like a wild goose chase for free shipping as I clicked link after link, going in a circle. It was not pleasing, neither in aesthetics or experience.
 
