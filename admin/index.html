@@ -7,9 +7,13 @@
   </head>
   <body>
     <script>
-      window.CMS_MANUAL_INIT = true;
-      window.addEventListener("DOMContentLoaded", function () {
-        CMS.init();
+      // Wait for the CMS to load before initializing
+      window.addEventListener('load', function () {
+        if (typeof CMS !== 'undefined') {
+          CMS.init();
+        } else {
+          console.error("CMS failed to load.");
+        }
       });
     </script>
   </body>
