@@ -6,14 +6,13 @@
     <script src="https://unpkg.com/decap-cms@3.1.1/dist/decap-cms.js"></script>
   </head>
   <body>
+    <!-- Required mount point for Decap CMS -->
     <script>
-      window.addEventListener('load', function () {
-        if (typeof CMS !== 'undefined') {
-          CMS.init();
-        } else {
-          console.error("CMS failed to load.");
-        }
-      });
+      if (typeof CMS !== 'undefined') {
+        CMS.init();
+      } else {
+        console.error("CMS failed to load.");
+      }
     </script>
   </body>
 </html>
