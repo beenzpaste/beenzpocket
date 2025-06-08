@@ -3,19 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <script src="https://unpkg.com/decap-cms@3.1.1/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </head>
   <body>
-    <!-- 🔧 REQUIRED MOUNTING POINT -->
     <div id="nc-root"></div>
-
-    <!-- 🔧 CMS Init -->
     <script>
-      if (typeof CMS !== 'undefined') {
-        CMS.init();
-      } else {
-        console.error("CMS failed to load.");
-      }
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof CMS !== "undefined") {
+          CMS.init();
+        } else {
+          console.error("CMS failed to load.");
+        }
+      });
     </script>
   </body>
-</html>
+</html> 
