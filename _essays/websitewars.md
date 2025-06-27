@@ -1,11 +1,12 @@
 ---
-title: "Website Wars"
+title: "Website Wars: Culture in Digital Wayfindin"
 tags: [wayfinding, design]
 date: 2024-02-08
 layout: default
 ---
 
-<h1>East vs. West: Culture in Digital Wayfinding</h1>
+<h1>Website Wars</h1>
+East vs. West: Culture in Digital Wayfinding
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin-bottom: 0.5em;">
   <figure style="text-align: center;">
