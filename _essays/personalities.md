@@ -9,7 +9,11 @@ layout: default
 
 Notes: [06/23,26/25] 
 
-Taking a look at how personalities — or, more broadly, the unique traits that make up a person's psyche — have been classified historically. I want to investigate, in particular, different personality tests and: **a)** the particular characteristics that are determined as governing factors, **b)** what it can tell us, **c)**how effectively they capture human complexity, and **d)** whether and if so, why, they are popular.
+Taking a look at how personalities — or, more broadly, the unique traits that make up a person's psyche — have been classified historically. I want to investigate, in particular, different personality tests and: <br>
+&nbsp;&nbsp;&nbsp; **a)** the particular characteristics that are determined as governing factors,<br>
+&nbsp;&nbsp;&nbsp; **b)** what it can tell us, <br>
+&nbsp;&nbsp;&nbsp; **c)** how effectively they capture human complexity, and <br>
+&nbsp;&nbsp;&nbsp; **d)** whether and if so, why, they are popular.<br>
 
 
 <h2>The "Big Five"</h2>
@@ -85,17 +89,67 @@ Strangely, when I took [this test](https://www.truity.com/test/enneagram-persona
 <h2>DiSC </h2>
 
 <h3>a) Governing characteristics:</h3>
-- 
+
+<div style="justify-content: center; align-items: center; margin-bottom: 0.5em;">
+  <figure style="text-align: center;">
+    <img src="/assets/images/essays/disc-priorities.png" alt="DiSC Disc" style="width: 300px;" />
+    <figcaption style="font-size: 0.9em;">DiSC Disc (Source: DiSC Profile)</figcaption>
+  </figure>
+</div>
+
+- (D)ominance: tend to be confident and place an emphasis on accomplishing bottom-line results
+- (i)nfluence: tend to be more open and place an emphasis on relationships and influencing or persuading others
+- (S)teadiness: tend to be dependable and place an emphasis on cooperation and sincerity
+- (C)onscientiousness: tend to place an emphasis on quality, accuracy, expertise, and competency
+
 <h3>b) What can it tell us?</h3>
+
+Sold to companies as a tool for better understanding employee behavioral and teamwork styles, it's upfront about being for dialogue rather than diagnosis and seems to mainly focus on recognizing patterns and tendencies. Reminds me of the IDI Assessment I had to do for university.
 
 <h3>c) Capturing Human Complexity</h3>
 
+I don't think this professes to be a wholistic assessment of human personality. As marketed, I believe that it's specific to one's interpersonal interaction, communication, conflict resolution style. However, its simplification into just four categories does little to provide valuable insight beyond already obvious attributes. I also feel that each box has a random collection of traits that don't feel quite methodical — does dependability always coincide with cooperation and sincerity?
+
 <h3>d) Popularity</h3>
+Probably at most popular among companies. Never heard of it.
+
+<h3>Taking the Test</h3>
+
+As the original test is paid, I took [this one](https://www.123test.com/disc-personality-test/) first. I also took [this one](https://onlinediscprofile.com). Be forewarned: both of their (free) results are *very* brief. 
+
+It was very easy to recognize exactly what the test was assessing for. Taking it was a drag. I could tell my DiSC type before and during the test; getting results felt less rewarding, more like a waste of time.
+<!-- My results: DC -->
+
+<h2>EQ</h2>
+
+While one of the most well-known measurements of... a person, there is no one standardized, "original", "true" test. EQ has made its way into the social consciousness rather than being an isolated concept. 
+
+<h3>a) Governing characteristics:</h3>
+
+Just looking briefly at some of the most common/popular tests, there seems to be no standard way of or criteria for measuring EQ. Each tests takes different approaches and names the governing characteristics differently. However, in summary, I would say they are:
+- Understanding of own emotions
+- Managing own emotions
+- Expressing emotion
+- Perceiving others' emotions (others)
+- Actions in relation to emotion
+
+<h3>b) What can it tell us?</h3>
+
+Emotions play a central role to human expression, interaction, communication, and existence. Evaluating one's ability to recognize, address, and handle them can speak a lot about them. This can go even beyond personality; rather than a box of behavior and tendencies, EQ speaks to maturity, resilience, and *humanity* that can span all different personalities. There's no objective merit to a higher score but a collective agreement to its benefit for richer relationships and quality of life.
+
+<h3>c) Capturing Human Complexity</h3>
+
+Despite just professing its merits, no single number can claim to capture human complexity. Digits can mislead its wielders into reducing the assessment into a numeric value, misinformedly comparing them or somehow measuring one's worth accordingly. The subject that EQ seeks to measure is complex — the EQ score itself is not.
+
+<h3>d) Popularity</h3>
+
+It would be tough to find someone who doesn't know of EQ and IQ. They have been hailed as the definitive standard for intelligence in its two main forms, if not literally then at least in the cultural consciousness. 
 
 <h3>Taking the Test</h3>
 
 
-<h2>EQ</h2>
+-- 
+<h2>MBTI</h2>
 
 <h3>a) Governing characteristics:</h3>
 - 
@@ -105,9 +159,12 @@ Strangely, when I took [this test](https://www.truity.com/test/enneagram-persona
 
 <h3>d) Popularity</h3>
 
+It can exist beyond the "original" test from the creators. There's a sense that everyone can decipher and diagnose their own MBTI, which provides an appealing sense of autonomy that many other exclusive, elusive personality tests don't. 
+
 <h3>Taking the Test</h3>
 
 
+--
 <h2>Astrology, 紫微斗數</h2>
 
 <h3>a) Governing characteristics:</h3>
@@ -119,3 +176,20 @@ Strangely, when I took [this test](https://www.truity.com/test/enneagram-persona
 <h3>d) Popularity</h3>
 
 <h3>Taking the Test</h3>
+
+
+--
+<h2>Personality Tests, In General</h2>
+
+<h3>Accessibility</h3>
+
+Many tests, in their original form (by their original creator) are behind a paywall. Thus, many times I chose to take free online versions. I don't know how true they are to the "original"; at the same time, if the original creators do not provide its test or test results openly, its methods may simply not deserve the reverence of being "true". A paywall may seek to preserve a veneer of high calibre and establishment, yet fall into the trap of obsolescence. At the end of the day, it is the tests that are free and open that will be taken.
+
+<h3>Assessment Methods</h3>
+
+What I found interesting were the modes of the questions. I certainly can't speak to their merits according to test type, as I was unable to take most of the "original" tests. However, even within one test type, each open-source version approached the evaluation differently.
+
+**General Trends:**
+- Rating statements on *accuracy*; rating criteria ranged from *accuracy* to *agreement* to *liking/disliking*
+- Some criteria changed from statement group to statement group
+**Most Interesting**: For this [free DiSC test](https://www.123test.com/disc-personality-test/), statements were grouped in four. Rather than rating each one, I was made to choose one I agreed with most and one, least. This was different, but made it supremely easy to identify which statement corresponded with which result. I'm guess-hoping that the paid test is a little more subtle.
